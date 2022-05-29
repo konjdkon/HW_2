@@ -36,6 +36,6 @@ class YaUploader:
 if __name__ == '__main__':
     print('Введите путь до файла для загрузки \n')
     path_to_file = str(input())
-    token = 'AQAAAAAXyByvAAfw_FB933pKPkKMp8vT4zclRCE'
+    token = ''
     uploader = YaUploader(token)
     result = uploader.upload(path_to_file)
